@@ -1,0 +1,81 @@
+**Gestión de Parqueadero**
+
+
+`Métodos de Vehiculo`
+Constructor para crear un nuevo vehículo.
+
+Obtener la placa del vehículo.
+
+Obtener el tipo de vehículo.
+
+Obtener el propietario del vehículo.
+
+
+
+
+**EspacioParqueadero**
+
+Representa un espacio de parqueadero con los siguientes atributos:
+
+numeroEspacio: El número del espacio de parqueadero.
+
+tipoPermitido: El tipo de vehículo permitido en ese espacio.
+
+ocupado: Indica si el espacio está ocupado.
+
+
+
+
+
+
+**Métodos de EspacioParqueadero**
+
+Constructor para crear un nuevo espacio de parqueadero.
+
+Asignar un vehículo al espacio si está permitido y el espacio está libre.
+
+Liberar el espacio de parqueadero.
+
+Obtener el número del espacio de parqueadero.
+
+Obtener el tipo de vehículo permitido en ese espacio.
+
+Indicar si el espacio está ocupado.
+
+
+
+
+
+**Métodos de GestionParqueadero**
+
+
+Constructor para inicializar el sistema con la capacidad máxima de vehículos y espacios.
+
+Registrar un nuevo vehículo en el sistema.
+
+Registrar un nuevo espacio de parqueadero en el sistema.
+
+Mostrar todos los espacios de parqueadero disponibles.
+
+Asignar un espacio de parqueadero disponible a un vehículo según su tipo.
+
+
+
+
+
+
+`Ejecución del Programa`
+
+En el método principal se realiza un ejemplo de cómo utilizar la clase GestionParqueadero para:
+
+Crear instancias de Vehiculo y EspacioParqueadero.
+
+Registrar los vehículos y los espacios en el sistema.
+
+Mostrar los espacios disponibles.
+
+Asignar espacios a los vehículos.
+
+Liberar un espacio y mostrar los espacios disponibles nuevamente.
+
+
